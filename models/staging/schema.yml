@@ -8,6 +8,8 @@ sources:
     tables:
       - name: green_tripdata_dbt
       - name: yellow_tripdata_dbt
+      - name: fhv_tripdata_dbt
+
 
 models:
   - name: stg_green_tripdata_dbt
@@ -214,3 +216,4 @@ models:
       - name: payment_type_description
         data_type: string
         description: ""
+

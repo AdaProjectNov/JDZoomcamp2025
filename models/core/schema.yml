@@ -185,3 +185,4 @@ models:
       - name: avg_monthly_trip_distance
         data_type: numeric
         description: ""
+
